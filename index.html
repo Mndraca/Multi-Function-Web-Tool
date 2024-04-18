@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Multy - Function Web Application</title>
+    <head>
+       
+
+</head>
+<body>
+    <div class="container">
+        <h1 id="myH1">Welcome to my first Web Application</h1>
+    <p>This Application allows users to enter data and select a function to apply to that data.</p> 
+    </div>
+    <form id="applicationfield">
+        <label for="userInput">User Input: </label>
+        <input type="text" name ="userInput"  id="userInput" class="input-container">
+ 
+        <div class="controls">
+            
+                <label for="entry-dropdown"> Select a function to apply </label>
+                <select id="entry-dropdown" name="options">
+                  <option id="factorialN" value="Factorial" selected>Factorial Number</option>
+                  <option id="reverse" value="reverse">Reverse Word</option>
+                  <option id="upper" value="upper">Upper Case</option>
+                  <option id="loop" value="loop">Loop</option>
+                 
+                </select>
+                <button type="button" id="submit" onclick="addTask()">Submit</button>
+            
+            </div>
+            <div>
+          </div>
+        </form>
+        <div class="container">
+          <p id="output"></p>
+        </div>
+      </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>

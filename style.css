@@ -1,0 +1,56 @@
+body {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    margin: 5%;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+   
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid red;
+}
+h1 {
+    color: #333;
+    text-align: center;
+}
+p {
+    color: #666;
+    text-align: center;
+}
+.output {
+    width: 40%;
+    height: auto;
+    border: 2px solid var(--light-grey);
+    padding: 10px;
+    text-align: center;
+  }
+
+  form {
+    margin-left: 10%;
+    padding: 5%;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+  label{
+    text-align: center;
+   margin-top: 5%;
+  }
+
+  button{
+    margin-top: 5%;
+    
+  }
+  select{
+    margin-top: 5%;
+  }
+ 
+  #userInput{
+    margin-bottom: 5%;
+  }
+ 
